@@ -1,0 +1,180 @@
+* {
+  box-sizing: border-box;
+  font-family: "Quicksand";
+}
+
+html {
+  font-size: 14px;
+  background-color: #f1f0f1;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+main > article {
+  margin: 16px;
+  background-color: white;
+  border-radius: 20px;
+  z-index: 1;
+  max-width: 380px;
+  min-width: 380px;
+}
+
+.header {
+  position: relative;
+}
+
+.description {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.description-detail {
+  height: 86.67px;
+}
+
+.specifics {
+  padding: 16px;
+  margin: 16px;
+  background-color: #f1f0f1;
+  border-radius: 10px;
+  max-height: 230px;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 20px;
+}
+
+.image {
+  max-width: 600px;
+  position: relative;
+  background-image: linear-gradient(transparent 70%, white 95%);
+}
+
+.product-image {
+  max-width: 100%;
+  position: relative;
+  z-index: -1;
+}
+
+.offer {
+  position: absolute;
+  top: 1rem;
+  padding: 0.5rem;
+  background-color: #b2b2b2;
+  opacity: 0.6;
+  color: #343535;
+  left: 20.5rem;
+  font-size: 0.75em;
+  border-radius: 5px;
+}
+
+.photo-by {
+  position: absolute;
+  top: 15rem;
+  left: 0.5rem;
+  font-size: 0.75em;
+}
+
+.price {
+  padding: 0.8rem;
+  border-radius: 10px;
+  background-color: white;
+  text-align: center;
+  margin: 0;
+}
+
+.form-footer {
+  margin-top: 16px;
+}
+
+.drop-down {
+  padding: 0.15rem;
+  padding-right: 1.5rem;
+  border: solid 1px lightgray;
+  border-radius: 10%;
+}
+
+.add-to-cart {
+  background-color: #3c4d78;
+  padding: 0.8rem;
+  border-radius: 10px;
+  text-align: center;
+  border: none;
+  color: white;
+  width: 100%;
+}
+
+button {
+  font-size: 1em;
+}
+
+.dot {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+#dot1-1 {
+  background-color: #1f55af;
+}
+
+#dot1-2 {
+  background-color: #da4940;
+}
+
+#dot1-3 {
+  background-color: #000000;
+}
+
+#dot2-1 {
+  background-image: linear-gradient(90deg, #989636 50%, black 50%);
+}
+
+#dot2-2 {
+  background-image: linear-gradient(90deg, #568ad8 50%, black 50%);
+}
+
+#dot2-3 {
+  background-image: linear-gradient(90deg, #d5668f 50%, black 50%);
+}
+
+#dot3-1 {
+  background-image: linear-gradient(90deg, #cf3328 50%, white 50%);
+  border: solid 1px lightgray;
+}
+
+#dot3-2 {
+  background-image: linear-gradient(90deg, #030608 50%, white 50%);
+  border: solid 1px lightgray;
+}
+
+.flex-options,
+.flex-colors {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.flex-options > :nth-child(2n) {
+  margin-left: 16px;
+}
+
+.flex-options > :nth-child(3) {
+  position: absolute;
+  left: 50%;
+}
+
+.flex-options > :nth-child(4) {
+  position: absolute;
+  left: 70%;
+}
+
+.flex-colors > .dot {
+  margin-left: 8px;
+}
